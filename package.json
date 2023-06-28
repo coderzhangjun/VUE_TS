@@ -12,7 +12,10 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "vue": "^3.3.2"
+    "element-plus": "^2.3.6",
+    "normalize.css": "^8.0.1",
+    "vue": "^3.3.2",
+    "vue-router": "^4.2.2"
   },
   "devDependencies": {
     "@rushstack/eslint-patch": "^1.2.0",
