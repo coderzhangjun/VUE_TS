@@ -1,5 +1,5 @@
 <template>
-  <div class="">我是main</div>
+  <div class="mani">我是main</div>
 </template>
 
 <script setup lang='ts'>

@@ -4,5 +4,6 @@ import 'normalize.css/normalize.css'
 import router from './router'
 
 const app = createApp(App)
-app.mount('#app')
+
 app.use(router)
+app.mount('#app')
