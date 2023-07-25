@@ -12,12 +12,8 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-<<<<<<< HEAD
     "axios": "^1.4.0",
     "element-plus": "^2.3.6",
-=======
-    "element-plus": "^2.3.7",
->>>>>>> aeeea9c46d0660f098f1d120b8b65981915e10aa
     "normalize.css": "^8.0.1",
     "vue": "^3.3.2",
     "vue-router": "^4.2.2"
