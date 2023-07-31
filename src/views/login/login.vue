@@ -4,10 +4,25 @@
       <h1>弘源后台管理系统</h1>
       <el-tabs type="border-card" stretch>
         <el-tab-pane label="账号登录">
+          <template #label>
+            <div>
+              <span>账号登录</span>
+              <el-icon>
+                <UserFilled />
+              </el-icon>
+            </div>
+          </template>
           <div>账号</div>
           <div>密码</div>
         </el-tab-pane>
-        <el-tab-pane label="手机登录">手机登录</el-tab-pane>
+        <el-tab-pane label="手机登录">
+          <template #label>
+            <div>
+              <span>手机登录</span>
+              <el-icon><Cellphone /></el-icon>
+            </div>
+          </template>
+        </el-tab-pane>
       </el-tabs>
       <div style="display: flex;justify-content: space-between;">
         <el-checkbox v-model="checked1" label="记住密码" size="large" />
